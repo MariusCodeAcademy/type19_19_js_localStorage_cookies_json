@@ -60,3 +60,5 @@ function getCookie(cname) {
   }
   return false;
 }
+
+// sukurti cookie town kuris butu lygus Vilnius ir galiotu 2 sav
