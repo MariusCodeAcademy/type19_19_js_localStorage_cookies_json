@@ -47,7 +47,8 @@ const todos1 = [
   },
 ];
 // seklia kopija shalow copy
-const todoCopy = todos1.slice();
+let todoCopy = todos1.slice();
 // padaryti deep kopija su JSON
+todoCopy = JSON.parse(JSON.stringify(todos1));
 console.log(todoCopy === todos1);
 console.log(todoCopy[0] === todos1[0]);
